@@ -10,6 +10,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        //Setting the content view
         setContentView(R.layout.activity_main)
 
         AppCenter.start(application, "e77cbb17-7511-4e18-b914-678be72d4188", Analytics::class.java, Crashes::class.java)
