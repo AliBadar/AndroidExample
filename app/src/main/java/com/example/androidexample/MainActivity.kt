@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         AppCenter.start(application, "e77cbb17-7511-4e18-b914-678be72d4188", Analytics::class.java, Crashes::class.java)
 
+        //OnClick
         calculateButton.setOnClickListener {
 //            Crashes.generateTestCrash()
             try {
