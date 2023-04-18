@@ -1,4 +1,4 @@
-package com.example.androidexample
+package com.lalorosas.retirementcalculator
 
 import org.junit.Test
 
