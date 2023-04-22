@@ -57,6 +57,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    //Feature-3 ready
     fun calculateRetirement(interestRate: Float, currentSavings: Float, monthly: Float, numMonths: Int): Float {
         var futureSavings = currentSavings * (1+(interestRate/100/12)).pow(numMonths)
 
