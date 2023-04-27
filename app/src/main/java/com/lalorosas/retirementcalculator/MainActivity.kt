@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         })
 
         calculateButton.setOnClickListener {
-            // Crashes.generateTestCrash()
+            // Remove Unsused comment Crashes.generateTestCrash()
             try {
                 val interestRate = interestEditText.text.toString().toFloat()
                 val currentAge = ageEditText.text.toString().toInt()
